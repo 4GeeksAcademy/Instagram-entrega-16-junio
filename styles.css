@@ -1,3 +1,132 @@
-div {
-    border:solid 1px black
+body{
+  background-color: black;
+  font-family: "roboto";
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height: 100vh;
+
+}
+
+.post {
+  background-color: white;
+  border: 5px
+  height: 500px;
+  width: 400px;
   }
+
+  .recuadro-up{ 
+  background-color: white;
+  border: 5px
+  height: 60px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  }
+
+  .logo{
+  background-color: white;
+  border: 5px green;
+  height: 60px;
+  width: 50px;
+  display: flex;
+  justify-content:center;align-items:center;
+  }
+
+  .name{
+    background-color: white;
+    border: 5px green;
+    height: 60px;
+    width: 80px;
+    display: flex;
+  justify-content:center;align-items:center;
+    }
+  .puntos{
+    background-color: white;
+    border: 5px green;
+    height: 60px;
+    width: 260px;
+    display: flex;
+  justify-content:end;align-items:center;
+  }
+
+  .recuadro-img{
+    background-color: white;
+    border: 5px red;
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+  }
+
+  .recuadro-img > img {
+    width:100%;}
+
+  .recuadro-bottom{
+  border: 5px white;
+  height: 180px;
+  width: 100%;
+  }
+
+  .botones{
+    background-color: white;
+    border: 5px green;
+    height: 40px;
+    width: 400px;
+    display: flex;
+  flex-direction: row;
+    }
+  
+        .corazon{
+        background-color:white;
+        border: 5px green;
+        height: 40px;
+        width: 40px;
+        display: flex;
+  justify-content:center;align-items:center;
+       }
+  
+        .globo{
+          background-color:white;
+          border: 5px green;
+          height: 40px;
+          width: 40px;
+          display: flex;
+  justify-content:center;align-items:center;
+        }
+
+        .avion{
+          background-color: white;
+          border: 5px green;
+          height: 40px;
+          width: 40px;
+          display: flex;
+  justify-content:center;align-items:center;
+          }
+
+        .guardar{
+            background-color:white;
+            border: 5px green;
+            height: 40px;
+            width: 260px;
+            display: flex;
+  justify-content:end;align-items:center;
+            }
+  
+  .followers{
+    background-color:white;
+    border: 5px green;
+    height: 20px;
+    width: 370px;
+    font-size:small ;
+    margin-left: 10px;
+    }
+
+    .mensaje {
+      background-color:white;
+    border: 5px green;
+    height: 80px;
+    width: 370px;
+    font-size:small ;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
